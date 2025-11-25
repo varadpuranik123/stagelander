@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <div className="max-w-screen-2xl mx-auto w-full h-20 fixed inset-x-0 z-50 bg-[#121212]/95 backdrop-blur flex items-center justify-between md:px-24 px-6">
       <div className="flex items-center gap-4 ">
-        <Image src="/logo.svg" alt="logo" width={100} height={100} className="size-35 " />
+        <Image src="/Logo.svg" alt="logo" width={100} height={100} className="size-35 " />
       </div>
       <div className="flex items-center md:gap-5 gap-1">
         <Link
