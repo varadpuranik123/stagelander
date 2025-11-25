@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.inner-shadow {
+  box-shadow: inset 0px 0px 16px 0px rgba(255, 160, 0, 60%);
+}
+
+.inner-shadow:hover {
+  box-shadow: inset 0px 0px 32px 0px rgba(255, 160, 0, 60%);
+}
+
+.text-gradient {
+  background: linear-gradient(58.872deg, #F59E0B 0%, rgba(255, 255, 255, 60%) 25%, #F59E0B 50%, rgba(255, 255, 255, 60%) 75%, #F59E0B 100%), linear-gradient(#F59E0B, #F59E0B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-shadow {
+  box-shadow: 2px 8px 16px 0px #000000, inset 0px 0px 20px 0px rgba(255, 160, 0, 80%);
+}
+
+.text-gradient-white {
+  background: linear-gradient(27.848deg, #FFFFFF 0%, rgba(18, 18, 18, 40%) 25%, #FFFFFF 50%, rgba(18, 18, 18, 40%) 75%, #FFFFFF 100%), linear-gradient(#FFFFFF, #FFFFFF);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
