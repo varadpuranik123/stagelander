@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="text-[#E5E5E5] bg-[#121212] min-h-screen w-full border flex flex-col items-center justify-start capitalize md:gap-y-12 gap-y-6">
+    <div className="text-[#E5E5E5] bg-[#121212] min-h-screen w-full flex flex-col items-center justify-start capitalize md:gap-y-12 gap-y-6">
       <Navbar />
       <Hero />
       <Paaji />
